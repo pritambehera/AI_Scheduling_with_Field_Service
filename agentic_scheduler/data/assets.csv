@@ -1,0 +1,7 @@
+id,type,zone,criticality,last_maint_days_ago,fail_prob
+A001,Transformer,Zone-3,High,120,0.82
+A002,Pipeline,Zone-1,Medium,45,0.34
+A003,Power Line,Zone-2,High,90,0.71
+A004,Transformer,Zone-1,Low,20,0.15
+A005,Renewable,Zone-3,Medium,60,0.55
+A006,Pipeline,Zone-2,High,200,0.91

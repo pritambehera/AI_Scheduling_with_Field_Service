@@ -1,0 +1,7 @@
+id,name,skills,zone,shift,exp,status,profile
+T001,Alex Roy,"electrical,HV",Zone-3,08-16,8,available,"Expert in high-voltage transformers and grid-level electrical faults."
+T002,Priya Shah,"pipeline,mechanical",Zone-1,08-16,6,available,"Specializes in subterranean water pipelines, pressure testing, and mechanical valve repairs."
+T003,Raj Kumar,"SCADA,electrical",Zone-2,09-17,10,available,"Decade of experience programming SCADA industrial control systems and low-voltage wiring."
+T004,Meena Das,"HV,mechanical",Zone-3,08-16,4,available,"Junior engineer skilled in mechanical assemblies and high-voltage safety compliance."
+T005,Sam Patel,"pipeline,SCADA",Zone-2,10-18,7,available,"Cross-trained in physical pipeline integration and SCADA telemetry sensors."
+T006,Neha Gupta,"electrical,pipeline",Zone-1,08-16,5,available,"Generalist familiar with both residential electrical grids and basic pipeline routing."

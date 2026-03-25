@@ -1,0 +1,5 @@
+{
+    "weather": {"Zone-1": "Clear", "Zone-2": "Clear", "Zone-3": "Storm Warning"},
+    "traffic": {"Zone-1": "Low", "Zone-2": "High", "Zone-3": "Low"},
+    "regulatory": {"Zone-2": "No work after 18:00"}
+}

@@ -1,0 +1,73 @@
+Starting FastAPI Orchestrator on port 8080...
+Starting Java Backend App on port 8081...
+Starting Streamlit UI over port 8501...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8503
+  Network URL: http://192.168.1.244:8503
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.example:scheduling >-----------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.4:run (default-cli) > test-compile @ scheduling >>>
+INFO:     Started server process [94642]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ scheduling ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ scheduling ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 6 source files with javac [debug parameters release 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/tiwariadarsh/Desktop/Project/AI_Scheduling_with_Field_Service/scheduling/src/main/java/com/example/scheduling/controller/ScheduleController.java:[16,19] cannot find symbol
+  symbol:   class ScheduleService
+  location: class com.example.scheduling.controller.ScheduleController
+[ERROR] /Users/tiwariadarsh/Desktop/Project/AI_Scheduling_with_Field_Service/scheduling/src/main/java/com/example/scheduling/controller/ScheduleController.java:[13,1] cannot find symbol
+  symbol:   class ScheduleService
+  location: class com.example.scheduling.controller.ScheduleController
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.458 s
+[INFO] Finished at: 2026-03-26T01:43:08+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project scheduling: Compilation failure: Compilation failure: 
+[ERROR] /Users/tiwariadarsh/Desktop/Project/AI_Scheduling_with_Field_Service/scheduling/src/main/java/com/example/scheduling/controller/ScheduleController.java:[16,19] cannot find symbol
+[ERROR]   symbol:   class ScheduleService
+[ERROR]   location: class com.example.scheduling.controller.ScheduleController
+[ERROR] /Users/tiwariadarsh/Desktop/Project/AI_Scheduling_with_Field_Service/scheduling/src/main/java/com/example/scheduling/controller/ScheduleController.java:[13,1] cannot find symbol
+[ERROR]   symbol:   class ScheduleService
+[ERROR]   location: class com.example.scheduling.controller.ScheduleController
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+  Stopping...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [94642]
+./start.sh: line 14: 94642 Terminated: 15          uvicorn api:app --host 0.0.0.0 --port 8080
+./start.sh: line 17: kill: (94642) - No such process
+./start.sh: line 17: kill: (94643) - No such process

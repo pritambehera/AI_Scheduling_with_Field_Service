@@ -1,0 +1,9 @@
+id,type,asset_id,priority,sla_hr,effort_hr,skill,zone,notes
+WO-101,Emergency,A001,Critical,2,3,electrical,Zone-3,"Massive spark blown on the Main Grid Transformer in Sector 4. High-voltage mitigation required."
+WO-102,Inspection,A002,Medium,8,2,pipeline,Zone-1,"Routine pressure validation on underground water junction."
+WO-103,Maintenance,A003,High,4,4,electrical,Zone-2,"Scheduled replacement of frayed overhead low-voltage wiring."
+WO-104,Installation,A005,Low,24,6,SCADA,Zone-2,"Deploying new remote telemetry nodes on the solar panel arrays."
+WO-105,Emergency,A006,Critical,2,3,pipeline,Zone-3,"Major mechanical valve rupture flooding the street. Needs immediate pressure lock."
+WO-106,Maintenance,A007,Medium,12,3,mechanical,Zone-3,"Mechanical assembly inspection and safety compliance check on Zone-3 substation."
+WO-107,Installation,A008,High,8,5,SCADA,Zone-2,"Cross-system integration of pipeline telemetry and SCADA sensor hubs."
+WO-108,Inspection,A009,Low,48,2,electrical,Zone-1,"Routine low-voltage residential grid electrical diagnostics."
