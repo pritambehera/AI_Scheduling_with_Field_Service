@@ -8,5 +8,5 @@ public interface ScheduleService {
     Mono<ScheduleDto> propose(ScheduleRequest request);
     Mono<ScheduleDto> replan(ScheduleRequest request);
     Mono<ScheduleDto> commit(ScheduleRequest request);
-    Mono<ScheduleDto> getById(ScheduleRequest request);
+    Mono<ScheduleDto> getById(String id);
 }

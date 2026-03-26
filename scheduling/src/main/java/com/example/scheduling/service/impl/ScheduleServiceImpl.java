@@ -3,6 +3,8 @@ package com.example.scheduling.service.impl;
 import com.example.scheduling.dto.ScheduleDto;
 import com.example.scheduling.dto.ScheduleRequest;
 import com.example.scheduling.service.ScheduleService;
+import org.springframework.web.reactive.function.client.WebClient;
+import reactor.core.publisher.Mono;
 
 public class ScheduleServiceImpl  implements ScheduleService {
     private final WebClient orchestrationClient = WebClient.builder()
@@ -30,7 +32,8 @@ public class ScheduleServiceImpl  implements ScheduleService {
     }
 
     @Override
-    public Mono<ScheduleDto> getById(ScheduleRequest request) {
+    public Mono<ScheduleDto> getById(String id) {
+
         return Mono.empty();
     }
 
